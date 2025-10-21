@@ -48,13 +48,13 @@ def imgs_a_pdf(lista_imgs, salida_pdf="salida.pdf"):
 # Ejemplo de uso
 imagenes = [
     "1.png",
-    "1.png",
+    "1.png",    
     "1.png"
 ]
 
 with sync_playwright() as p:
     browser = p.chromium.launch()
-    page = browser.new_page(viewport={"width": 2560, "height": 1440})
+    page = browser.new_page(viewport={"width": 2480, "height": 3508}, device_scale_factor=3)
     page.goto("file:index.html")
     page.pdf(path="salida.pdf", format="A4", print_background=True)
     page.screenshot(path="1.png", full_page=True)
