@@ -54,12 +54,12 @@ imagenes = [
 
 with sync_playwright() as p:
     browser = p.chromium.launch()
-    page = browser.new_page(viewport={"width": 2560, "height": 1440})
+    page = browser.new_page()
     page.goto("file:index.html")
-    page.pdf(path="salida.pdf", format="A4", print_background=True)
+    page.pdf(path="salida.pdf", format="A4", print_background=True, scale=1)
     page.screenshot(path="1.png", full_page=True)
     browser.close()
-    imgs_a_pdf(imagenes)
+    imgs_a_pdf(imagenes )
     
 
 
