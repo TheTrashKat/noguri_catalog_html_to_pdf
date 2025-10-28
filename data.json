@@ -16,7 +16,7 @@
           "nota_extra": "Precio al por mayor negociable."
         },
         {
-          "url_img_categoria": "./img/P37.png",
+          "url_img_categoria": "./img/P37.jpg",
           "titulo_categoria": "Botón Metálico 37 mm",
           "lista_precios": [
             { "descripción": "1 Botón:", "precio": "$2.000" },
@@ -25,7 +25,7 @@
           "nota_extra": "Precio al por mayor negociable."
         },
         {
-          "url_img_categoria": "./img/P58.png",
+          "url_img_categoria": "./img/P58.jpg",
           "titulo_categoria": "Botón Metálico 58 mm",
           "lista_precios": [
             { "descripción": "1 Botón:", "precio": "$3.000" },
@@ -71,12 +71,12 @@
     },
     {
       "numero_pagina": "3",
-      "url_img_header": "./img/hoodies.png",
+      "url_img_header": "./img/hoodies.webp",
       "nombre_categoria": "Camisetas",
       "description_categoria": "Diseña tu propia camiseta personalizada con estampados donde quieras: frente, espalda o mangas. Ofrecemos distintos tipos de gramaje para que elijas la textura y grosor que prefieras. Una prenda versátil, perfecta para eventos, regalos o simplemente para expresar tu creatividad.",
       "elementos": [
         {
-          "url_img_categoria": "./img/C160.png",
+          "url_img_categoria": "./img/C160.jpg",
           "titulo_categoria": "Camiseta 160 gr",
           "lista_precios": [
             { "descripción": "Tallas S, M, L, XL:", "precio": "$45.000" },
@@ -93,7 +93,7 @@
           "nota_extra": "Colores normales: 100% Algodón."
         },
         {
-          "url_img_categoria": "./img/C230.png",
+          "url_img_categoria": "./img/C230.jpg",
           "titulo_categoria": "Camiseta 230 gr",
           "lista_precios": [
             { "descripción": "Tallas S, M, L, XL:", "precio": "$55.000" },
@@ -105,12 +105,12 @@
     },
     {
       "numero_pagina": "4",
-      "url_img_header": "./img/hoodies.png",
+      "url_img_header": "./img/hoodies.webp",
       "nombre_categoria": "Hoodies",
       "description_categoria": "Crea tu propio estilo con nuestros hoodies personalizados. Elige entre una amplia gama de colores y estampa el diseño que quieras: logos, ilustraciones o frases que te representen. Cómodos, cálidos y de alta calidad, ideales para uso diario o para promocionar tu marca con estilo.",
       "elementos": [
         {
-          "url_img_categoria": "./img/Hoodie.png",
+          "url_img_categoria": "/img/hoodies.webp",
           "titulo_categoria": "Hoodies",
           "lista_precios": [
             { "descripción": "Tallas XS, S, M, L, XL", "precio": "$90.000" },
@@ -119,7 +119,7 @@
           "nota_extra": "Incluye personalización tamaño carta."
         },
         {
-          "url_img_categoria": "./img/Stamp.png",
+          "url_img_categoria": "./img/Stamp.webp",
           "titulo_categoria": "Estampados Adicionales",
           "lista_precios": [
             { "descripción": "Estampado 2 Lados", "precio": "Aumenta $10.000" },
@@ -137,7 +137,7 @@
       "description_categoria": "Sorprende con un regalo útil y original. Nuestras tazas con sticker personalizado te permiten agregar tu toque especial con diseños únicos. Ideal para detalles corporativos, regalos personales o recordatorios de eventos. ¡Cada sorbo será un recuerdo memorable!",
       "elementos": [
         {
-          "url_img_categoria": "./img/T11.png",
+          "url_img_categoria": "./img/T11.jpg",
           "titulo_categoria": "Tazas",
           "lista_precios": [
             { "descripción": "Tallas 11 oz:", "precio": "$18.000" }

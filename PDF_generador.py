@@ -24,12 +24,22 @@ with sync_playwright() as p:
     browser = p.chromium.launch()
     page = browser.new_page()
     for i in range(0, 5):
-        page.goto("http://127.0.0.1:5500/?id="+str(i))
+        page.goto(f"http://127.0.0.1:8080/?id={i}", wait_until="networkidle") 
 
-        time.sleep(5)
+        page.evaluate("""
+        () => Promise.all(Array.from(document.images).map(img => {
+            if (img.complete && img.naturalWidth) return true;
+            return new Promise(res => {
+                img.addEventListener('load', () => res(true), {once:true});
+                img.addEventListener('error', () => res(true), {once:true});
+            });
+        }))
+    """)
         page.pdf(path="salida.pdf", format="A4", print_background=True, scale=1)
+        time.sleep(1)
         page.screenshot(path=str(i)+".png", full_page=True)
         imagenes.append(str(i)+".png")
+        
     
     browser.close()
     imgs_a_pdf(imagenes)

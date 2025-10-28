@@ -1,3 +1,4 @@
+window.addEventListener("load", () => {
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
@@ -22,7 +23,7 @@ fetch('data.json')
       article.classList.add('price-row');
 
       article.innerHTML = `
-        <div class="imgbox" style="background-image: url('${item.url_img_categoria}');"></div>
+        <div class="imgbox"  fetchpriority="high" loading="eager" style="background-image: url('${item.url_img_categoria}');"></div>
         <div class="card">
           <div class="card-internal">
             <h3>${item.titulo_categoria}</h3>
@@ -78,7 +79,7 @@ function renderPagina(index) {
       const fila = document.createElement("article");
       fila.classList.add("price-row");
       fila.innerHTML = `
-        <div class="imgbox" style="background-image:url('${el.url_img_categoria}')"></div>
+        <div class="imgbox"  fetchpriority="high" loading="eager" style="background-image:url('${el.url_img_categoria}')"></div>
         <div class="card">
           <h3>${el.titulo_categoria}</h3>
           <ul class="prices">
@@ -95,3 +96,4 @@ function renderPagina(index) {
 }
 
 window.addEventListener("DOMContentLoaded", cargarJSON);
+});
