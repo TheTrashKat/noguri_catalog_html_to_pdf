@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Serigrafía – Tarifas y Servicios</title>
-  <meta name="description" content="Estructura de página para serigrafía con paleta café, negro y blanco." />
+  <title>Catálogo - Noguri</title>
+  <meta name="description" content="Estructura de página para el catalago de Noguri" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
   <style>
     :root {
       --cafe: #8B5E3C;
@@ -56,6 +57,8 @@
       z-index: 20;
       background: var(--blanco);
       border-bottom: 1px solid var(--gris);
+      background-repeat: no-repeat !important;
+      background-size: cover;
     }
 
     .number-paginator {
@@ -234,78 +237,18 @@
 <body>
   <header class="header" style="background-image: url('./img/1.jpg');">
     <div class="wrap" style="display:flex; justify-content: space-between; align-items:center; gap:14px; ">
-
     </div>
   </header>
 
-  <span class="tag">PERSONALIZA TUS IDEAS</span>
+  <span class="tag">P</span>
 
   <main id="serigrafia" class="wrap hero">
     <div class="hero-inner">
-
-      <p class="sub">Ideal para imprimir grandes cantidades de productos con <strong>diseños específicos</strong>.
-        Nuestros expertos pueden trabajar con <strong>tela</strong>, <strong>papel</strong> y <strong>plástico</strong>.
-        Estructura inspirada en tu imagen de referencia, manteniendo la paleta <em>café</em>, <em>negro</em> y
-        <em>blanco</em>.
+      <p class="sub">Texto
       </p>
     </div>
 
     <section id="precios" class="price-grid">
-      <!-- Fila 1: Textil -->
-      <article class="price-row">
-        <div class="imgbox" aria-label="Mockup de camiseta" style="background-image: url('./img/1.jpg');"></div>
-        <div class="card">
-          <div class="card-internal">
-            <h3>Impresión textil</h3>
-            <ul class="prices">
-              <li><span><span class="bullet"></span>1 tinta desde:</span><strong>$20.00</strong></li>
-              <div class="dash" aria-hidden="true"></div>
-              <li><span><span class="bullet"></span>2 tintas desde:</span><strong>$30.00</strong></li>
-              <div class="dash" aria-hidden="true"></div>
-              <li><span><span class="bullet"></span>3 tintas desde:</span><strong>$40.00</strong></li>
-              <div class="dash" aria-hidden="true"></div>
-              <li><span><span class="bullet"></span>4 tintas desde:</span><strong>$50.00</strong></li>
-            </ul>
-            <div class="note">Precio a partir de 100 piezas</div>
-          </div>
-        </div>
-      </article>
-
-      <!-- Fila 2: Papel -->
-      <article class="price-row">
-        <div class="imgbox" aria-label="Mockup de empaque de papel" style="background-image: url('./img/2.jpg');"></div>
-        <div class="card">
-          <h3>Impresión en papel</h3>
-          <ul class="prices">
-            <li><span><span class="bullet"></span>1 tinta desde:</span><strong>$5.00</strong></li>
-            <div class="dash" aria-hidden="true"></div>
-            <li><span><span class="bullet"></span>2 tintas desde:</span><strong>$10.00</strong></li>
-            <div class="dash" aria-hidden="true"></div>
-            <li><span><span class="bullet"></span>3 tintas desde:</span><strong>$15.00</strong></li>
-            <div class="dash" aria-hidden="true"></div>
-            <li><span><span class="bullet"></span>4 tintas desde:</span><strong>$20.00</strong></li>
-          </ul>
-          <div class="note">Precio a partir de 100 piezas</div>
-        </div>
-      </article>
-
-      <!-- Fila 3: Vasos -->
-      <article class="price-row">
-        <div class="imgbox" aria-label="Mockup de vaso" style="background-image: url('./img/3.jpg');"></div>
-        <div class="card">
-          <h3>Impresión en vasos</h3>
-          <ul class="prices">
-            <li><span><span class="bullet"></span>1 tinta desde:</span><strong>$5.00</strong></li>
-            <div class="dash" aria-hidden="true"></div>
-            <li><span><span class="bullet"></span>2 tintas desde:</span><strong>$10.00</strong></li>
-            <div class="dash" aria-hidden="true"></div>
-            <li><span><span class="bullet"></span>3 tintas desde:</span><strong>$15.00</strong></li>
-            <div class="dash" aria-hidden="true"></div>
-            <li><span><span class="bullet"></span>4 tintas desde:</span><strong>$20.00</strong></li>
-          </ul>
-          <div class="note">Precio a partir de 100 piezas</div>
-        </div>
-      </article>
     </section>
   </main>
 
@@ -319,5 +262,5 @@
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
-
+<script src="script.js"></script>
 </html>

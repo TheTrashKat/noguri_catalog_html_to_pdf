@@ -1,0 +1,150 @@
+{
+  "paginas": [
+    {
+      "numero_pagina": "1",
+      "url_img_header": "./img/botones.jpg",
+      "nombre_categoria": "Botones",
+      "description_categoria": "Dale un toque único a tu estilo con nuestros botones metálicos personalizados, disponibles en distintos tamaños. Perfectos para promocionar tu marca, decorar mochilas o expresar tu personalidad. Fabricados con materiales duraderos y con acabados brillantes que resaltan tu diseño.",
+      "elementos": [
+        {
+          "url_img_categoria": "./img/P25.jpg",
+          "titulo_categoria": "Botón Metálico 25 mm",
+          "lista_precios": [
+            { "descripción": "1 Botón:", "precio": "$1.300" },
+            { "descripción": "2 Botones:", "precio": "$2.000" }
+          ],
+          "nota_extra": "Precio al por mayor negociable."
+        },
+        {
+          "url_img_categoria": "./img/P37.png",
+          "titulo_categoria": "Botón Metálico 37 mm",
+          "lista_precios": [
+            { "descripción": "1 Botón:", "precio": "$2.000" },
+            { "descripción": "2 Botones:", "precio": "$3.500" }
+          ],
+          "nota_extra": "Precio al por mayor negociable."
+        },
+        {
+          "url_img_categoria": "./img/P58.png",
+          "titulo_categoria": "Botón Metálico 58 mm",
+          "lista_precios": [
+            { "descripción": "1 Botón:", "precio": "$3.000" },
+            { "descripción": "2 Botones:", "precio": "$5.000" }
+          ],
+          "nota_extra": "Precio al por mayor negociable."
+        }
+      ]
+    },
+    {
+      "numero_pagina": "2",
+      "url_img_header": "./img/botones.jpg",
+      "nombre_categoria": "Stickers",
+      "description_categoria": "Decora todo con nuestros stickers personalizados. Puedes crear pegatinas únicas con la imagen que quieras o elegir un set completo de tu temática favorita. Ideales para cuadernos, laptops, botellas y cualquier superficie donde quieras agregar un toque personal.",
+      "elementos": [
+        {
+          "url_img_categoria": "./img/S55.jpg",
+          "titulo_categoria": "Sticker 55 mm",
+          "lista_precios": [
+            { "descripción": "1 Sticker:", "precio": "$1.000" },
+            { "descripción": "6 Stickers:", "precio": "$5.000" }
+          ],
+          "nota_extra": "Precio al por mayor negociable."
+        },
+        {
+          "url_img_categoria": "./img/S28.jpg",
+          "titulo_categoria": "Sticker 28 mm",
+          "lista_precios": [
+            { "descripción": "1 Sticker:", "precio": "$300" },
+            { "descripción": "2 Stickers:", "precio": "$500" }
+          ],
+          "nota_extra": "Precio al por mayor negociable."
+        },
+        {
+          "url_img_categoria": "./img/Hoja.jpg",
+          "titulo_categoria": "Hoja Completa de Stickers",
+          "lista_precios": [
+            { "descripción": "1 Hoja:", "precio": "$10.000" }
+          ],
+          "nota_extra": "El tamaño de los stickers puede ser modificable."
+        }
+      ]
+    },
+    {
+      "numero_pagina": "3",
+      "url_img_header": "./img/hoodies.png",
+      "nombre_categoria": "Camisetas",
+      "description_categoria": "Diseña tu propia camiseta personalizada con estampados donde quieras: frente, espalda o mangas. Ofrecemos distintos tipos de gramaje para que elijas la textura y grosor que prefieras. Una prenda versátil, perfecta para eventos, regalos o simplemente para expresar tu creatividad.",
+      "elementos": [
+        {
+          "url_img_categoria": "./img/C160.png",
+          "titulo_categoria": "Camiseta 160 gr",
+          "lista_precios": [
+            { "descripción": "Tallas S, M, L, XL:", "precio": "$45.000" },
+            { "descripción": "Talla 2XL:", "precio": "$53.000" }
+          ],
+          "nota_extra": "Colores normales: 100% Algodón. Colores Cross o Jasped: 65% Poliester / 35% Algodón."
+        },
+        {
+          "url_img_categoria": "./img/C185.jpg",
+          "titulo_categoria": "Camiseta 185 gr",
+          "lista_precios": [
+            { "descripción": "Tallas S, M, L, XL, 2XL:", "precio": "$50.000" }
+          ],
+          "nota_extra": "Colores normales: 100% Algodón."
+        },
+        {
+          "url_img_categoria": "./img/C230.png",
+          "titulo_categoria": "Camiseta 230 gr",
+          "lista_precios": [
+            { "descripción": "Tallas S, M, L, XL:", "precio": "$55.000" },
+            { "descripción": "Talla 2XL:", "precio": "$63.000" }
+          ],
+          "nota_extra": "Colores normales: 100% Algodón. Colores Jasped: 65% Poliester / 35% Algodón."
+        }
+      ]
+    },
+    {
+      "numero_pagina": "4",
+      "url_img_header": "./img/hoodies.png",
+      "nombre_categoria": "Hoodies",
+      "description_categoria": "Crea tu propio estilo con nuestros hoodies personalizados. Elige entre una amplia gama de colores y estampa el diseño que quieras: logos, ilustraciones o frases que te representen. Cómodos, cálidos y de alta calidad, ideales para uso diario o para promocionar tu marca con estilo.",
+      "elementos": [
+        {
+          "url_img_categoria": "./img/Hoodie.png",
+          "titulo_categoria": "Hoodies",
+          "lista_precios": [
+            { "descripción": "Tallas XS, S, M, L, XL", "precio": "$90.000" },
+            { "descripción": "Tallas 2XL, 3XL, 4XL", "precio": "$98.000" }
+          ],
+          "nota_extra": "Incluye personalización tamaño carta."
+        },
+        {
+          "url_img_categoria": "./img/Stamp.png",
+          "titulo_categoria": "Estampados Adicionales",
+          "lista_precios": [
+            { "descripción": "Estampado 2 Lados", "precio": "Aumenta $10.000" },
+            { "descripción": "Estampado Grande", "precio": "Aumenta $10.000" },
+            { "descripción": "Estampado 1 Brazo", "precio": "Aumenta $8.000" }
+          ],
+          "nota_extra": "Impresión Completa o Cortada."
+        }
+      ]
+    },
+    {
+      "numero_pagina": "5",
+      "url_img_header": "./img/botones.jpg",
+      "nombre_categoria": "Tazas",
+      "description_categoria": "Sorprende con un regalo útil y original. Nuestras tazas con sticker personalizado te permiten agregar tu toque especial con diseños únicos. Ideal para detalles corporativos, regalos personales o recordatorios de eventos. ¡Cada sorbo será un recuerdo memorable!",
+      "elementos": [
+        {
+          "url_img_categoria": "./img/T11.png",
+          "titulo_categoria": "Tazas",
+          "lista_precios": [
+            { "descripción": "Tallas 11 oz:", "precio": "$18.000" }
+          ],
+          "nota_extra": "Impresión en ambos lados de la taza."
+        }
+      ]
+    }
+  ]
+}

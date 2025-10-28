@@ -3,35 +3,7 @@ from PIL import Image
 import os
 import sys
 import subprocess
-
-
-def install(package):
-    """Instala un paquete usando pip si no está instalado."""
-    try:
-        __import__(package)
-        print(f"✅ {package} ya está instalado.")
-    except ImportError:
-        print(f"📦 Instalando {package}...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-# 1️⃣ Instalar dependencias principales
-install("playwright")
-install("Pillow")
-
-# 2️⃣ Instalar navegadores de Playwright (solo la primera vez)
-try:
-    from playwright.sync_api import sync_playwright
-    print("🌐 Instalando Chromium para Playwright...")
-    subprocess.check_call([sys.executable, "-m", "playwright", "install", "chromium"])
-    print("✅ Chromium instalado correctamente.")
-except Exception as e:
-    print("⚠️ No se pudo instalar Chromium automáticamente:", e)
-
-print("\\n✅ Entorno listo. Puedes usar ahora:")
-print("   from playwright.sync_api import sync_playwright")
-print("   from PIL import Image")
-print("\\n👉 Ejemplo para ejecutar tu script:")
-print("   python tu_script.py")
+import time
 
 def imgs_a_pdf(lista_imgs, salida_pdf="salida.pdf"):
     # Abrir todas las imágenes
@@ -46,22 +18,18 @@ def imgs_a_pdf(lista_imgs, salida_pdf="salida.pdf"):
     print(f"✅ PDF generado correctamente: {salida_pdf}")
 
 # Ejemplo de uso
-imagenes = [
-    "1.png",
-    "1.png",
-    "1.png"
-]
+imagenes = []
 
 with sync_playwright() as p:
     browser = p.chromium.launch()
     page = browser.new_page()
-    page.goto("file:index.html")
-    page.pdf(path="salida.pdf", format="A4", print_background=True, scale=1)
-    page.screenshot(path="1.png", full_page=True)
-    browser.close()
-    imgs_a_pdf(imagenes )
+    for i in range(0, 5):
+        page.goto("http://127.0.0.1:5500/?id="+str(i))
+
+        time.sleep(5)
+        page.pdf(path="salida.pdf", format="A4", print_background=True, scale=1)
+        page.screenshot(path=str(i)+".png", full_page=True)
+        imagenes.append(str(i)+".png")
     
-
-
-
-
+    browser.close()
+    imgs_a_pdf(imagenes)
